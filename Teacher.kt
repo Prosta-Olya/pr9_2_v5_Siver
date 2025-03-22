@@ -1,8 +1,7 @@
-package Exams
+package Exam
 
-class Teacher():Applicant() {
-
+class Teacher :Applicant(){
     override  fun Grade(){
-        println("Преподаватель $name Выставил оценку абитуриенту - $grade")
+        println("Преподаватель $name Выставил оценку абитуриенту - $grade за экзамен $exam")
     }
 }
